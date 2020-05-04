@@ -1,5 +1,5 @@
 # Stock-Analysis
-A Stock Analysis Framework
+A simple stock analysis framework built in Python
 
 ## Installation Instructions:
 Note: This has been tested on Windows 10 with Python 3.8
