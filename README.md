@@ -1,6 +1,8 @@
 # Stock-Analysis
 A simple stock analysis framework built in Python
 
+![image](https://user-images.githubusercontent.com/4008778/81018199-e45ed180-8e18-11ea-870b-34d3b5e68657.png)
+
 ## Installation Instructions:
 Note: This has been tested on Windows 10 with Python 3.8
 1. Clone/download the repository to the local disk
