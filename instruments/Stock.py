@@ -28,6 +28,10 @@ class Stock(Instrument):
 
     def download_data(self):
         # Downloads and stores stock data in a CSV file
+        if os.path.exists(C.BASE_DIR):
+            pass
+        else:
+            os.makedirs(C.BASE_DIR)
         temp_df = pandas_datareader.tiingo.TiingoDailyReader(self.symbol, start=self.start_date, end=self.end_date,
                                                              retry_count=3,
                                                              pause=0.1, timeout=30, session=None, freq=None,
