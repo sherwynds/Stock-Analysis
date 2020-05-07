@@ -7,7 +7,7 @@ A simple stock analysis framework built in Python
 Note: This has been tested on Windows 10 with Python 3.8
 1. Clone/download the repository to the local disk
 2. Edit constants.py to include your TIINGO API key
-3. Use the command line to navigate to the Stock-Analysis folder, and activate the virtual environment with `.\env\Scripts\activate` on Windows
+3. Install the dependencies using `pip install`
 4. Run the script with `python main.py`
 
 ## Usage Instructions:
