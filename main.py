@@ -1,14 +1,13 @@
 from PyQt5.QtWidgets import *
 from PyQt5.uic import loadUi
 from matplotlib.backends.backend_qt5agg import (NavigationToolbar2QT as NavigationToolbar)
-
 import numpy as np
 import random
 from pandas.plotting import register_matplotlib_converters
 from pandas import pandas as pd
 
 from instruments.Stock import Stock
-from instruments.Portfolio import Portfolio
+# from instruments.Portfolio import Portfolio               # For expansion later
 import constants as C
 
 
